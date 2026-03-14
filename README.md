@@ -99,7 +99,8 @@ blue-team-analysis-cisco-ethical-hacker-capstone/
       |-- 06-nikto-directory-indexing-exposed.png
       |-- 07-directory-listing-visible-browser.png
       |-- 08-challenge2-flag-visible.png
-      |-- 09-nmap-smb-services-identified.png
+      |-- 09-nmap-smb-services-identified-1.png
+      |-- 10-nmap-smb-services-identified-2.png
       |-- 11-samba-share-enumeration-anonymous-access.png
       |-- 12-challenge3-samba-access-and-flag.png
       |-- 13-sa-pcap-opened-in-wireshark.png
