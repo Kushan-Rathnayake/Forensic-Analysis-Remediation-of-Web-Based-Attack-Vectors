@@ -1,0 +1,18 @@
+title: Detect SQL Injection Patterns in Apache Logs
+status: experimental
+description: Detects common SQL injection patterns (UNION, SELECT, information_schema) in web server logs to prevent credential exposure.
+logsource:
+    category: webserver
+detection:
+    selection:
+        cs-uri-query|contains:
+            - "UNION SELECT"
+            - "ORDER BY"
+            - "information_schema"
+            - "1=1"
+    condition: selection
+falsepositives:
+    - Authorized Penetration Testing / DAST Scanning
+level: critical
+tags:
+    - attack.t1190
