@@ -70,28 +70,9 @@ tags:
     - attack.t1190
 
 ```
-
-## 📂 Project Structure
-
-```text
-Forensic-Analysis-Web-Attack-Vectors/
-├── README.md
-├── Documentation/
-│   └── Forensic_Analysis_Defensive_Case_Study.pdf
-├── Detection_Rules/
-│   └── sqli_apache_sigma_rule.yml
-├── Artifacts/
-│   └── SA.pcap
-└── Evidence/
-    ├── 01_SQLi_Payload_Execution.png
-    ├── 02_Credential_Hash_Extraction.png
-    ├── 03_Unauthorized_SSH_Session.png
-    ├── 04_Apache_Directory_Indexing.png
-    ├── 05_SMB_Anonymous_Enumeration.png
-    └── 06_Wireshark_HTTP_Reconnaissance.png
-```
 ### **📝 Post-Mortem Methodology Note**
 
 During the final phase of the investigation, forensic reconstruction of the traffic flow was conducted to verify target host identification. In instances where live resources were decommissioned post-incident, data was validated against historical packet capture signatures to ensure a 100% accurate reconstruction of the attack path.
 
 **Disclaimer**: *This analysis was conducted in an authorized, isolated educational lab environment for forensic training purposes. No real-world systems were targeted or compromised during this case study.*
+
