@@ -1,4 +1,4 @@
-# Blue Team Analysis of a Cisco Ethical Hacker Final Capstone
+# Forensic Analysis & Remediation of Web-Based Attack Vectors
 
 ## Overview
 This project is a beginner-level blue-team analysis based on a Cisco Ethical Hacker Final Capstone completed in a controlled lab environment.
